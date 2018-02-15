@@ -216,69 +216,40 @@ textarea {
   font: inherit; /* 2 */
 }
 /* Mobile first css */
-@media screen and (min-width: 640px) {
-  html{
-    font-size: 1.333em;
-    line-height: 2em;
+@media screen and (max-width: 480px) {
+  form {
+    margin: 0 0 5px 0;
+    width: 100%;
   }
-  body{
-    font-size: 1.333em;
-    padding-left: 10.00%;
-    padding-right: 10.00%;
-    background-color: #a7eadd;
+  form > label,
+  legend {
+	  width: 100%;
+    float: none;
   }
-  label,input{
-    display: inline-flex;
-    width: auto;
+  
+  label {
+    width: 100%;
+    text-align: left;
   }
-  p{
-    font-size: 1.333em;
-    line-height: 2.666em;
+ 
+  form > fieldset {
+    width: 80%;
+    float: none;
   }
-
+  
+  input[type=email],
+  input[type=text],
+  input[type=date] {
+    width: 95%; 
+  }
 }
-
-@media screen and (min-width: 960px) {
-  html{
-    font-size: 1.5em;
-    line-height: 3em;
+@media screen and (max-width: 960px) {
+  form > label,
+	legend {
+  	text-align: right;
+    width: 100%;
   }
-  body{
-    font-size: 1.5em;
-    padding-left: 10.00%;
-    padding-right: 10.00%;
-    background-color: #a7eadd;
-  }
-
-  label,input{
-    display: inline-flex;
-    width: auto;
-  }
-  p{
-    font-size: 1.5em;
-    line-height: 2em;
-  }
-)
-	@media screen and (min-width: 320px) {
-  html{
-    font-size: 1em;
-    line-height: 1.444em;
-  }
-  body{
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #a7eadd;
-  }
-  label,input{
-    display: inline-flex;
-    width: auto;
-  }
-  p{
-    font-size: 1.666em;
-  }
-
 }
-
 /* Beggining of my css for form*/
 fieldset {
   padding: 20px;
@@ -295,7 +266,7 @@ body {
 p {
   font-size: 15px;
   font-family: Arial, sans-serif;
-  maring-top: 15px;
+  margin-top: 15px;
   margin-bottom: 22px;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -319,6 +290,6 @@ input[type=date] {
 }
 footer {
   font-size: 10px;
-  text-allign: center;
-  font-color: red;
+  text-align: center;
+  color: #670253;
 	}
