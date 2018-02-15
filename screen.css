@@ -292,5 +292,10 @@ body {
 p {
   font-size: 15px;
   font-family: Arial, sans-serif;
+  maring-top: 15px;
+  margin-bottom: 22px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+	}
   
 
