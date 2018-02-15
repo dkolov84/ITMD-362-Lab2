@@ -257,6 +257,24 @@ textarea {
     line-height: 2em;
   }
 )
+	@media screen and (min-width: 320px) {
+  html{
+    font-size: 1em;
+    line-height: 1.444em;
+  }
+  body{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  label,input{
+    display: inline-flex;
+    width: auto;
+  }
+  h1{
+    font-size: 1.666em;
+  }
+
+}
 
 /* Beggining of my css for form*/
 fieldset {
