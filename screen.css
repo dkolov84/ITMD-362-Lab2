@@ -269,6 +269,7 @@ label {
   padding-bottom: 5px;
   font-weight: 600;
   font-size: 22px;
+  font-family: Algerian, sans-serif;
 }
 fieldset {
   padding: 20px;
@@ -284,7 +285,7 @@ body {
 }
 p {
   font-size: 15px;
-  font-family: Arial, sans-serif;
+  font-family: Berlin Sans FB, sans-serif;
   margin-top: 15px;
   margin-bottom: 22px;
   padding-top: 3px;
