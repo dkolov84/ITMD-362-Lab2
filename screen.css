@@ -251,6 +251,15 @@ textarea {
   }
 }
 /* Beggining of my css for form*/
+label {
+  float: left;
+  display: block;
+  width: 20%;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-bottom: 8px;
+  font-weight: 900;
+}
 fieldset {
   padding: 20px;
   margin-left: 6px;
