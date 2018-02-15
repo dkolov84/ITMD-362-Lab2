@@ -229,7 +229,7 @@ textarea {
   
   label {
     width: 100%;
-    text-align: left;
+    text-align: center;
   }
  
   form > fieldset {
@@ -246,7 +246,7 @@ textarea {
 @media screen and (max-width: 960px) {
   form > label,
 	legend {
-  	text-align: right;
+  	text-align: center;
     width: 100%;
   }
 }
