@@ -317,4 +317,8 @@ input[type=date] {
   padding-left: 5px;
   text-align: left;
 }
-
+footer {
+  font-size: 10px;
+  text-allign: center;
+  font-color: red;
+	}
