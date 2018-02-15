@@ -215,3 +215,11 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+
+/* Beggining of my css for form*/
+fieldset {
+  padding: 20px;
+  margin-left: 6px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+ }
