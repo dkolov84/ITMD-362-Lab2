@@ -251,6 +251,11 @@ textarea {
   }
 }
 /* Beggining of my css for form*/
+legend {
+  font-weight: 900;
+  color: #670253;
+  font-size: 25px;
+}
 label {
   float: left;
   display: block;
