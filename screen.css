@@ -255,6 +255,9 @@ legend {
   font-weight: 900;
   color: #670253;
   font-size: 25px;
+  margin-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: block;
   border-style: inset;
   border-width: 7px;
@@ -265,7 +268,6 @@ label {
   display: block;
   width: 20%;
   margin-right: 10px;
-  margin-left: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 600;
