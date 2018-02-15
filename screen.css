@@ -256,8 +256,9 @@ legend {
   color: #670253;
   font-size: 25px;
   margin-left: 30px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   display: block;
   border-style: inset;
   border-width: 7px;
