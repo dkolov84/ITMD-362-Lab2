@@ -225,6 +225,7 @@ textarea {
     font-size: 1.333em;
     padding-left: 10.00%;
     padding-right: 10.00%;
+    background-color: #a7eadd;
   }
   label,input{
     display: inline-flex;
@@ -246,6 +247,7 @@ textarea {
     font-size: 1.25em;
     padding-left: 10.00%;
     padding-right: 10.00%;
+    background-color: #a7eadd;
   }
 
   label,input{
@@ -265,6 +267,7 @@ textarea {
   body{
     padding-left: 5%;
     padding-right: 5%;
+    background-color: #a7eadd;
   }
   label,input{
     display: inline-flex;
